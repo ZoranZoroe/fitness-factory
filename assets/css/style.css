@@ -14,48 +14,59 @@ body {
 }
 
 /* HEADINGS AND LOGO*/
-h1,h2{
-  font-family: Montserrat,sans-serif;
+
+h1,
+h2 {
+  font-family: Montserrat, sans-serif;
   text-transform: uppercase;
   letter-spacing: 5px;
-  color:#050505;
+  color: #050505;
 
 }
-#logo{
-  float:left;
+
+#logo {
+  float: left;
   font-size: 280%;
 }
 
-nav ul {
+/* NAVIGATION LINKS */
+#menu {
+  font-size: 110%;
+  letter-spacing: 5px;
+}
+
+#menu,
+#logo {
+  line-height: 75px;
+}
+
+#menu li {
+  float: right;
+  list-style-type: none;
+}
+
+#menu li a {
+  display: block;
+  color: #0d0d0d;
+  text-align: center;
+  padding: 0px 35px;
+  text-decoration: none;
+}
+
+#menu ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  border-bottom: 2px solid #ffffff;
+  border-bottom: 2px solid #fef9f8;
 }
 
-nav li {
-  float: right;
-
+#menu a:hover:not(.active) {
+  color: #fef9f8;
+  background-color: #ef9273;
 }
 
-nav li a {
-  display: block;
-  color: #0d0d0d;
-  text-align: center;
-  padding: 25px;
-  text-decoration: none;
-  font-size: 25px;
-}
-
-nav li a:hover:not(.active) {
-  background-color: #ddd;
-  border-bottom: 2px solid #000000;
-  border-bottom: 2px solid #04AA6D;
-}
-
-nav li a.active {
-  color: white;
-  background-color: #04AA6D;
-  border-bottom: 2px solid #04AA6D;
+#menu a.active {
+  color: #fef9f8;
+  background-color: #ef9273;
 }
