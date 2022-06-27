@@ -72,8 +72,24 @@ h2 {
 }
 
 /* MAIN IMAGE */
+
+#main-section{
+  height:600px;
+  width: 100%;
+  overflow: hidden;
+}
 #main-image {
   height:600px;
   width: 100%;
   background: url('../images/Fitness_Factory_Main.jpg') no-repeat center center;
+  /* APLYING MAIN IMAGE TRANSFORMATION*/
+  animation-name: opacity-up ;
+  animation-duration: 7s;
+  animation-fill-mode: forwards;
+}
+
+/* IMAGE TRANSFORMATION */
+@keyframes opacity-up {
+  from {opacity: 0.3;}
+  to {opacity: 0.9;}
 }
