@@ -70,3 +70,10 @@ h2 {
   color: #fef9f8;
   background-color: #ef9273;
 }
+
+/* MAIN IMAGE */
+#main-image {
+  height:600px;
+  width: 100%;
+  background: url('../images/Fitness_Factory_Main.jpg') no-repeat center center;
+}
