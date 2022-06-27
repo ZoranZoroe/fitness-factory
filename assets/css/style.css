@@ -27,6 +27,8 @@ h2 {
 #logo {
   float: left;
   font-size: 280%;
+  color:#ef9273;
+  margin-left: 30px;
 }
 
 /* NAVIGATION LINKS */
@@ -47,10 +49,11 @@ h2 {
 
 #menu li a {
   display: block;
-  color: #0d0d0d;
+  color: #ef9273;
   text-align: center;
   padding: 0px 35px;
   text-decoration: none;
+  font-weight: 799;
 }
 
 #menu ul {
@@ -81,26 +84,43 @@ h2 {
 }
 
 #main-cover-text {
-  font-size: 130%;
+  font-size: 160%;
   font-family: Montserrat, sans-serif;
   text-transform: uppercase;
   letter-spacing: 5px;
   width:600px;
-  height:150px;
-  padding-top:40px;
-  padding-left: 10px;
-  bottom:50px;
+  padding:10px;
+  bottom:220px;
   right:0px;
   position:absolute;
-  background-color: aqua;
-  opacity: 0.7;
+  background-color: #ef9273;
+  opacity: 0.8;
 }
 
 #main-cover-text,
 #main-cover-text h2 {
   color: #fef9f8;
+  font-weight: 900;
 }
 
+#side-cover-text {
+  font-size: 110%;
+  font-family: Montserrat, sans-serif;
+  text-transform: none;
+  letter-spacing: 5px;
+  width:600px;
+  padding:10px;
+  bottom:50px;
+  right:0px;
+  position:absolute;
+  background-color: #ef9273;
+  opacity: 0.8;
+}
+#side-cover-text,
+#side-cover-text h3 {
+  color: #fef9f8;
+  padding:10px;
+}
 #main-image {
   height: 600px;
   width: 100%;
