@@ -71,25 +71,53 @@ h2 {
   background-color: #ef9273;
 }
 
-/* MAIN IMAGE */
+/* MAIN IMAGE AND COVER TEXT*/
 
-#main-section{
-  height:600px;
+#main-section {
+  height: 600px;
   width: 100%;
   overflow: hidden;
+  position: relative;
 }
+
+#main-cover-text {
+  font-size: 130%;
+  font-family: Montserrat, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  width:600px;
+  height:150px;
+  padding-top:40px;
+  padding-left: 10px;
+  bottom:50px;
+  right:0px;
+  position:absolute;
+  background-color: aqua;
+  opacity: 0.7;
+}
+
+#main-cover-text,
+#main-cover-text h2 {
+  color: #fef9f8;
+}
+
 #main-image {
-  height:600px;
+  height: 600px;
   width: 100%;
   background: url('../images/Fitness_Factory_Main.jpg') no-repeat center center;
   /* APLYING MAIN IMAGE TRANSFORMATION*/
-  animation-name: opacity-up ;
-  animation-duration: 7s;
+  animation-name: opacity-up;
+  animation-duration: 10s;
   animation-fill-mode: forwards;
 }
 
 /* IMAGE TRANSFORMATION */
 @keyframes opacity-up {
-  from {opacity: 0.3;}
-  to {opacity: 0.9;}
+  from {
+    opacity: 0.3;
+  }
+
+  to {
+    opacity: 0.9;
+  }
 }
