@@ -147,6 +147,16 @@ footer{
   background-color:#ef9273 ;
   padding:25px 15%;
 }
+footer h2{
+  padding: 10px;
+  padding-bottom: 20px;
+}
+footer p{
+  padding: 10px;
+}
+footer span{
+  font-weight: 700;
+}
 * {
   box-sizing: border-box;
 }
@@ -156,7 +166,7 @@ footer{
   float: left;
   width: 25%;
   padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
+  
 }
 
 /* Clear floats after the columns */
