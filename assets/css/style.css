@@ -10,7 +10,7 @@ body {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   color: #0d0d0d;
-  background-color: #fef9f8;
+  background-color: #ffffff;
 }
 
 /* HEADINGS AND LOGO*/
@@ -27,7 +27,7 @@ h2 {
 #logo {
   float: left;
   font-size: 280%;
-  color:#ef9273;
+  color:#050505;
   margin-left: 30px;
 }
 
@@ -49,7 +49,7 @@ h2 {
 
 #menu li a {
   display: block;
-  color: #ef9273;
+  color: #050505;
   text-align: center;
   padding: 0px 35px;
   text-decoration: none;
@@ -65,12 +65,12 @@ h2 {
 }
 
 #menu a:hover:not(.active) {
-  color: #fef9f8;
+  color: #050505;
   background-color: #ef9273;
 }
 
 #menu a.active {
-  color: #fef9f8;
+  color: #050505;
   background-color: #ef9273;
 }
 
@@ -88,7 +88,7 @@ h2 {
   font-family: Montserrat, sans-serif;
   text-transform: uppercase;
   letter-spacing: 5px;
-  width:600px;
+  width:700px;
   padding:10px;
   bottom:220px;
   right:0px;
@@ -99,7 +99,7 @@ h2 {
 
 #main-cover-text,
 #main-cover-text h2 {
-  color: #fef9f8;
+  color: #050505;
   font-weight: 900;
 }
 
@@ -108,7 +108,7 @@ h2 {
   font-family: Montserrat, sans-serif;
   text-transform: none;
   letter-spacing: 5px;
-  width:600px;
+  width:700px;
   padding:10px;
   bottom:50px;
   right:0px;
@@ -118,7 +118,7 @@ h2 {
 }
 #side-cover-text,
 #side-cover-text h3 {
-  color: #fef9f8;
+  color: #050505;
   padding:10px;
 }
 #main-image {
@@ -142,6 +142,68 @@ h2 {
   }
 }
 
+/* FITNESS EQUIPMENT SECTION*/
+#fitness-equipment{
+  display: block;
+  min-height: 1000px;
+  padding-top: 30px;
+  margin-bottom: 50px;
+  background-color: #ffffff;
+}
+
+#fitness-equipment p{
+  text-align: justify;
+  font-size: 120%;
+  line-height: 30px;
+}
+#fitness-equipment h2{
+  text-align: center;
+  font-size: 220%;
+  padding:60px 0;
+}
+#fitness-equipment h3{
+  text-align: center;
+  font-size: 180%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#fitness-equipment-left{
+  width:45%;
+  float:left;
+  margin-right: 10%;
+}
+#fitness-equipment-right{
+  width:45%;
+  float:right;
+}
+.fe-left{
+    min-height: 100px;
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 30px;
+}
+.fe-left img{
+  display: block;
+  width: 20%;
+  border-radius: 50%;
+  margin:0 auto;
+}
+.fe-right{
+  min-height: 100px;
+  width: 60%;
+  float: left;
+  line-height: 20px;
+  clear: both;
+  margin-bottom: 30px;
+}
+.fe-right img{
+  display: block;
+  width: 20%;
+  border-radius: 50%;
+  margin:0 auto;
+}
 /* FOOTER */
 footer{
   background-color:#ef9273 ;
@@ -166,7 +228,7 @@ footer span{
   float: left;
   width: 25%;
   padding: 10px;
-  
+
 }
 
 /* Clear floats after the columns */
